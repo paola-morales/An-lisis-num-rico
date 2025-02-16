@@ -3,6 +3,7 @@ import cmath
 import numpy as np
 import sympy as sp
 #%%
+
 print('Ejercicio #1\n')
 """
 -Define una función fahrenheit a celsius que toma un valor en Fahrenheit y lo 
@@ -19,6 +20,7 @@ celsius = (fahrenheit - 32) * 5 / 9
 print(f'La temperatura en grados Celsius es: {round(celsius, 2)}°C')
 
 #%%
+
 print('Ejercicio #2')
 """
 Considerando sinh(x)=(e^x - e^-x)/2
@@ -43,6 +45,7 @@ sin3=(math.e**x - math.e**-x)/2
 print(round(sin3,2))
 
 #%%
+
 print('Ejercicio 3')
 """
 1.-Considera la relación entre el seno en variable compleja y el seno hiperbólico en
@@ -83,6 +86,7 @@ print(f"¿Son iguales? {cmath.isclose(exp_ix, cos_sin)}\n")
 #Verifica si la identidad de Euler se cumple, comparando 'e^(ix)' con 'cos(x) + i*sin(x)'.
 
 #%%
+
 print('Ejercicio 4\n')
 """
 Este tratamiento flexible de funciones en el plano complejo permite encontrar
@@ -113,6 +117,7 @@ r1, r2 = calcular_raiz(a, b, c)
 print(f"\nPara a={a}, b={b} y c={c}:\n    Raíces = {r1:.2f}, {r2:.2f}")
 
 #%%
+
 print('Ejercicio 5')
 """
 ¿Cuál es la trayectoria de una pelota que se lanza con una rapidéz inicial
